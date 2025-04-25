@@ -1,0 +1,52 @@
+{
+    "output": {
+        "filePath": "repomix-meta-output.xml",
+        "style": "xml",
+        "parsableStyle": false,
+        "fileSummary": true,
+        "directoryStructure": true,
+        "removeComments": false,
+        "removeEmptyLines": false,
+        "compress": false,
+        "topFilesLength": 5,
+        "showLineNumbers": true,
+        "copyToClipboard": false,
+        "git": {
+            "sortByChanges": false
+        }
+    },
+    "include": [
+        "package.json",
+        "next.config.ts",
+        "tsconfig.json",
+        "components.json",
+        ".prettierrc.json",
+        ".editorconfig",
+        "postcss.config.mjs",
+        "eslint.config.mjs",
+        "README.md",
+        "LICENSE.md",
+        "Dockerfile",
+        "Dockerfile.bun"
+    ],
+    "ignore": {
+        "useGitignore": true,
+        "useDefaultPatterns": true,
+        "customPatterns": [
+            ".next/**",
+            "node_modules/**",
+            "public/**",
+            "src/**",
+            "**/*.{png,jpg,jpeg,gif,svg,ico,woff,woff2,eot,ttf,otf}",
+            "package-lock.json",
+            ".npmrc",
+            ".nvmrc"
+        ]
+    },
+    "security": {
+        "enableSecurityCheck": true
+    },
+    "tokenCount": {
+        "encoding": "o200k_base"
+    }
+}

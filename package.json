@@ -10,7 +10,10 @@
         "start": "next start",
         "lint": "next lint",
         "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
-        "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
+        "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
+        "repomix:code": "repomix --config repomix.code.config.json",
+        "repomix:meta": "repomix --config repomix.meta.config.json",
+        "repomix:all": "npm run repomix:code && npm run repomix:meta"
     },
     "dependencies": {
         "@hookform/resolvers": "^5.0.1",
