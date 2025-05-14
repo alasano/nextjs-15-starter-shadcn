@@ -3,10 +3,8 @@ import type { ReactNode } from 'react';
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 
-import { ThemeProvider } from 'next-themes';
-
 import '@/app/globals.css';
-import { Toaster } from '@/registry/new-york-v4/ui/sonner';
+import { ThemeProvider } from '@/components/theme-provider';
 
 const geistSans = localFont({
     src: './fonts/GeistVF.woff',
@@ -31,10 +29,7 @@ const Layout = ({ children }: Readonly<{ children: ReactNode }>) => {
         <html suppressHydrationWarning lang='en'>
             <body
                 className={`${geistSans.variable} ${geistMono.variable} bg-background text-foreground overscroll-none antialiased`}>
-                <ThemeProvider attribute='class'>
-                    {children}
-                    <Toaster />
-                </ThemeProvider>
+                <ThemeProvider attribute='class'>{children}</ThemeProvider>
             </body>
         </html>
     );
