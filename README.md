@@ -1,16 +1,15 @@
-# Next.js 15 Starter (shadcn) [[LIVE DEMO](https://nextjs-15-starter-shadcn.vercel.app/)]
+# Next.js 15 Starter (shadcn)
 
-![MIT License](https://img.shields.io/badge/license-MIT-blue) [![TypeScript](https://badgen.net/badge/icon/typescript?icon=typescript&label)](https://typescriptlang.org) ![ESLint](https://img.shields.io/badge/code%20style-eslint-brightgreen) ![GitHub stars](https://img.shields.io/github/stars/siddharthamaity/nextjs-15-starter-shadcn?style=social) ![GitHub forks](https://img.shields.io/github/forks/siddharthamaity/nextjs-15-starter-shadcn?style=social) [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/siddharthamaity)
+![MIT License](https://img.shields.io/badge/license-MIT-blue)
+[![TypeScript](https://badgen.net/badge/icon/typescript?icon=typescript&label)](https://typescriptlang.org)
+![ESLint](https://img.shields.io/badge/code%20style-eslint-brightgreen)
+![GitHub stars](https://img.shields.io/github/stars/alasano/nextjs-15-starter-shadcn?style=social)
+![GitHub forks](https://img.shields.io/github/forks/alasano/nextjs-15-starter-shadcn?style=social)
 
-*This is the Tailwind version for Next.js 15 Starter, you may be interested in other templates too -*
-- [**Next.js 15 Starter Core**](https://github.com/SiddharthaMaity/nextjs-15-starter-core)
-- [**Next.js 15 Starter with Tailwind CSS**](https://github.com/SiddharthaMaity/nextjs-15-starter-tailwind)
-
-Welcome to the **Next.js 15 Starter** repository! This starter template is built with Next.js 15, React 19, TypeScript 5, Tailwind CSS 3, Shadcn UI and comes packed with several powerful tools and configurations to accelerate your project setup and streamline development workflows using VS Code.
-
-![Next.js 15 Starter Shadcn](public/images/screenshot1.png)
-
-![Next.js 15 Starter Shadcn](public/images/screenshot2.png)
+Welcome to the **Next.js 15 Starter** repository. This starter template is built
+with Next.js 15, React 19, TypeScript 5, Tailwind CSS 3, Shadcn UI and comes
+packed with several powerful tools and configurations to accelerate your project
+setup and streamline development workflows using VS Code / Cursor / Windsurf.
 
 ## 🚀 What's Included
 
@@ -26,6 +25,16 @@ Welcome to the **Next.js 15 Starter** repository! This starter template is built
 - **Next.js Bundle Analyzer**
 - **Dockerfile** with Node.js 22.14.0 (Alpine)
 - **Dockerfile.bun** with Bun 1.2.8 (Alpine)
+
+### 📦 Repomix Configs
+
+Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file.
+It is perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, etc.
+
+Available commands:
+- `npm run repomix:code`: Produces `repomix-code-output.xml` which includes all code files.
+- `npm run repomix:meta`: Generates `repomix-meta-output.xml` which includes all config files.
+- `npm run repomix:all`: Generates both output files.
 
 ### 🛠️ ESLint Plugins
 
@@ -64,25 +73,20 @@ To enhance development experience, install the following VS Code extensions:
 - [**Visual Studio Code Commitizen Support**](https://marketplace.visualstudio.com/items?itemName=KnisterPeter.vscode-commitizen)
 - [**Markdown All in One**](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
-
 ## 🏁 Getting Started
 
 ### Prerequisites
 
 - **Bun**: Version 1.2.8 or higher OR
 - **Node.js**: Version 20.18.0 or higher
-- **Docker**: For containerized deployment (optional but recommended)
+- **Docker**: For containerized deployment
 
 ### Installation
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/siddharthamaity/nextjs-15-starter-shadcn.git
+    git clone https://github.com/alasano/nextjs-15-starter-shadcn.git
     cd nextjs-15-starter-shadcn
-    ```
-    To get the code without example change branch to without-example
-    ```bash
-    git checkout without-example
     ```
 
 2. **Install Dependencies**:
@@ -120,7 +124,8 @@ To enhance development experience, install the following VS Code extensions:
 
 ### 🐳 Docker Setup
 
-To use Docker, make sure Docker is installed on your machine. Then, build and run the Docker container:
+To use Docker, make sure Docker is installed on your machine. Then, build and
+run the Docker container:
 
 ```bash
 docker build . -t nextjs-starter-shadcn
@@ -132,26 +137,25 @@ docker run -p 3000:3000 nextjs-starter-shadcn
 
 ### ☁ Try it in the Cloud
 
-[![Open in VS Code](https://img.shields.io/badge/Open%20in-VS%20Code-blue?logo=visualstudiocode)](https://vscode.dev/github/SiddharthaMaity/nextjs-15-starter-shadcn)
+[![Open in VS Code](https://img.shields.io/badge/Open%20in-VS%20Code-blue?logo=visualstudiocode)](https://vscode.dev/github/alasano/nextjs-15-starter-shadcn)
 
-[![Open in GitHub Codespaces](https://img.shields.io/badge/Open%20in-GitHub%20Codespaces-blue?logo=github)](https://codespaces.new/SiddharthaMaity/nextjs-15-starter-shadcn)
+[![Open in GitHub Codespaces](https://img.shields.io/badge/Open%20in-GitHub%20Codespaces-blue?logo=github)](https://codespaces.new/alasano/nextjs-15-starter-shadcn)
 
-[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/SiddharthaMaity/nextjs-15-starter-shadcn)
+[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/alasano/nextjs-15-starter-shadcn)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/SiddharthaMaity/nextjs-15-starter-shadcn)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/alasano/nextjs-15-starter-shadcn)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg)](https://stackblitz.com/github/SiddharthaMaity/nextjs-15-starter-shadcn)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg)](https://stackblitz.com/github/alasano/nextjs-15-starter-shadcn)
 
-[![Open in Repl.it](https://replit.com/badge/github/SiddharthaMaity/nextjs-15-starter-shadcn)](https://replit.com/github/SiddharthaMaity/nextjs-15-starter-shadcn)
+[![Open in Repl.it](https://replit.com/badge/github/alasano/nextjs-15-starter-shadcn)](https://replit.com/github/alasano/nextjs-15-starter-shadcn)
 
-[![Open in Glitch](https://img.shields.io/badge/Open%20in-Glitch-blue?logo=glitch)](https://glitch.com/edit/#!/import/github/SiddharthaMaity/nextjs-15-starter-shadcn)
+[![Open in Glitch](https://img.shields.io/badge/Open%20in-Glitch-blue?logo=glitch)](https://glitch.com/edit/#!/import/github/alasano/nextjs-15-starter-shadcn)
 
-[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/SiddharthaMaity/nextjs-15-starter-shadcn)
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/alasano/nextjs-15-starter-shadcn)
 
 ### License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md)
+file for details.
 
 ---
-
-<p style="text-align: center;"> With ❤️ from 🇮🇳 </p>
