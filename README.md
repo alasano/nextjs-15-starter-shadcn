@@ -28,13 +28,17 @@ setup and streamline development workflows using VS Code / Cursor / Windsurf.
 
 ### 📦 Repomix Configs
 
-Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file.
-It is perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, etc.
+Repomix is a powerful tool that packs your entire repository into a single,
+AI-friendly file. It is perfect for when you need to feed your codebase to Large
+Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, etc.
 
 Available commands:
-- `npm run repomix:code`: Produces `repomix-code-output.xml` which includes all code files.
-- `npm run repomix:meta`: Generates `repomix-meta-output.xml` which includes all config files.
-- `npm run repomix:all`: Generates both output files.
+
+- `pnpm repomix:code`: Produces `repomix-code-output.xml` which includes all
+  code files.
+- `pnpm repomix:meta`: Generates `repomix-meta-output.xml` which includes all
+  config files.
+- `pnpm repomix:all`: Generates both output files.
 
 ### 🛠️ ESLint Plugins
 
@@ -84,43 +88,43 @@ To enhance development experience, install the following VS Code extensions:
 ### Installation
 
 1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/alasano/nextjs-15-starter-shadcn.git
-    cd nextjs-15-starter-shadcn
-    ```
+   ```bash
+   git clone https://github.com/alasano/nextjs-15-starter-shadcn.git
+   cd nextjs-15-starter-shadcn
+   ```
 
 2. **Install Dependencies**:
-    ```bash
-    npm install
-    # or with Yarn
-    yarn install
-    # or with pnpm
-    pnpm install
-    # or with Bun
-    bun install
-    ```
+   ```bash
+   npm install
+   # or with Yarn
+   yarn install
+   # or with pnpm
+   pnpm install
+   # or with Bun
+   bun install
+   ```
 
 3. **Run Development Server**:
-    ```bash
-    npm run dev
-    # or with Yarn
-    yarn dev
-    # or with pnpm
-    pnpm dev
-    # or with Bun
-    bun dev
-    ```
+   ```bash
+   npm run dev
+   # or with Yarn
+   yarn dev
+   # or with pnpm
+   pnpm dev
+   # or with Bun
+   bun dev
+   ```
 
 4. **Build for Production**:
-    ```bash
-    npm run build
-    # or with Yarn
-    yarn build
-    # or with pnpm
-    pnpm build
-    # or with Bun
-    bun run build
-    ```
+   ```bash
+   npm run build
+   # or with Yarn
+   yarn build
+   # or with pnpm
+   pnpm build
+   # or with Bun
+   bun run build
+   ```
 
 ### 🐳 Docker Setup
 
