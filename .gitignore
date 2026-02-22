@@ -34,7 +34,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# repomix
-repomix-code-output.xml
-repomix-meta-output.xml

@@ -26,20 +26,6 @@ setup and streamline development workflows using VS Code / Cursor / Windsurf.
 - **Dockerfile** with Node.js 22.14.0 (Alpine)
 - **Dockerfile.bun** with Bun 1.2.8 (Alpine)
 
-### 📦 Repomix Configs
-
-Repomix is a powerful tool that packs your entire repository into a single,
-AI-friendly file. It is perfect for when you need to feed your codebase to Large
-Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, etc.
-
-Available commands:
-
-- `pnpm repomix:code`: Produces `repomix-code-output.xml` which includes all
-  code files.
-- `pnpm repomix:meta`: Generates `repomix-meta-output.xml` which includes all
-  config files.
-- `pnpm repomix:all`: Generates both output files.
-
 ### 🛠️ ESLint Plugins
 
 - [**@eslint/js**](https://www.npmjs.com/package/@eslint/js)
