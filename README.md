@@ -1,4 +1,4 @@
-# Next.js 15 Starter (shadcn)
+# Next.js 16 Starter (shadcn)
 
 ![MIT License](https://img.shields.io/badge/license-MIT-blue)
 [![TypeScript](https://badgen.net/badge/icon/typescript?icon=typescript&label)](https://typescriptlang.org)
@@ -6,25 +6,25 @@
 ![GitHub stars](https://img.shields.io/github/stars/alasano/nextjs-15-starter-shadcn?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/alasano/nextjs-15-starter-shadcn?style=social)
 
-Welcome to the **Next.js 15 Starter** repository. This starter template is built
-with Next.js 15, React 19, TypeScript 5, Tailwind CSS 3, Shadcn UI and comes
+Welcome to the **Next.js 16 Starter** repository. This starter template is built
+with Next.js 16, React 19, TypeScript 5, Tailwind CSS 4, shadcn/ui and comes
 packed with several powerful tools and configurations to accelerate your project
 setup and streamline development workflows using VS Code / Cursor / Windsurf.
 
 ## 🚀 What's Included
 
-- **Next.js 15**
+- **Next.js 16**
 - **React 19**
 - **TypeScript 5**
 - **ESLint 9**
 - **Prettier 3**
 - **Tailwind CSS 4**
-- **Shadcn UI**
-- **App Directory**
+- **shadcn/ui**
+- **App Router**
 - **System, Light & Dark Mode**
 - **Next.js Bundle Analyzer**
 - **Dockerfile** with Node.js 22.14.0 (Alpine)
-- **Dockerfile.bun** with Bun 1.2.8 (Alpine)
+- **Dockerfile.bun** with Bun 1.2.13 (Alpine)
 
 ### 🛠️ ESLint Plugins
 
@@ -33,7 +33,6 @@ setup and streamline development workflows using VS Code / Cursor / Windsurf.
 - [**eslint-plugin-react**](https://github.com/jsx-eslint/eslint-plugin-react)
 - [**@next/eslint-plugin-next**](https://github.com/vercel/next.js)
 - [**eslint-config-prettier**](eslint-config-prettier)
-- [**eslint-plugin-tailwindcss**](https://github.com/francoismassart/eslint-plugin-tailwindcss)
 - [**eslint-plugin-import**](https://github.com/import-js/eslint-plugin-import)
 - [**eslint-plugin-promise**](https://github.com/eslint-community/eslint-plugin-promise)
 
@@ -67,8 +66,8 @@ To enhance development experience, install the following VS Code extensions:
 
 ### Prerequisites
 
-- **Bun**: Version 1.2.8 or higher OR
-- **Node.js**: Version 20.18.0 or higher
+- **Node.js**: Version 20.9.0 or higher (22.14.0 is used by `.nvmrc` and `Dockerfile`)
+- **Bun**: Version 1.2.13 or higher (optional, for `Dockerfile.bun` / Bun workflows)
 - **Docker**: For containerized deployment
 
 ### Installation

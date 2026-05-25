@@ -74,6 +74,6 @@ export default [
         }
     },
     {
-        ignores: ['.next/*']
+        ignores: ['.next/**', 'next-env.d.ts']
     }
 ];
